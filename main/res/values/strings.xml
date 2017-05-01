@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="corgi">Corgi</string>
+    <string name="corgi2">Corgi2</string>
+    <string name="tomy">Tomy</string>
+    <string name="catty">Catty</string>
+    <string name="sam">Sam</string>
+    <string name="hatchy">Hatchy</string>
+
+</resources>

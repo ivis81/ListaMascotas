@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/cardview_corners">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/cardview_padding_top"
+
+        >
+
+        <ImageView
+            android:id="@+id/imgMascota"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/corgi"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorFondo"
+            >
+            <ImageView
+                android:id="@+id/imgHuesoBlanco"
+                android:layout_width="@dimen/image_dogfoot"
+                android:layout_height="@dimen/image_dogfoot"
+                android:src="@drawable/dog_bone_blanco"
+                />
+
+            <TextView
+                android:id="@+id/tvNombreMascota"
+                android:layout_width="@dimen/tvnombre_mascota_width"
+                android:layout_height="wrap_content"
+                android:text="@string/corgi"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:paddingLeft="@dimen/nombre_mascota_padding_left"
+                />
+
+            <TextView
+                android:id="@+id/tvLike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                />
+
+            <ImageView
+                android:id="@+id/imgHuesoAmarillo"
+                android:layout_width="@dimen/image_dogfoot"
+                android:layout_height="@dimen/image_dogfoot"
+                android:src="@drawable/dog_bone_amarillo"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
